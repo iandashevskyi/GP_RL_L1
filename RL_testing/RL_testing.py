@@ -67,7 +67,7 @@ def main():
         else:
             print("Неверный ввод. Пожалуйста, введите 'manual' или 'default'.")
 
-    if mode == "manual":
+    if mode == "manual" or "m":
         manual_control_loop(env)
     else:
         default_control_loop(env)
